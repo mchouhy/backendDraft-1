@@ -1,10 +1,10 @@
 // Importación del Router de Express JS.
 import { Router } from "express"
-// Importación del manejador de archivos.
+// Importación del manejador de productos.
 import { ProductManager } from '../controllers/productManager.js'
 // Creación del Router de Products.
 const productsRouter = Router()
-// Llamado de la función constructora pasando la ruta de productos por argumento.
+// Llamado de la función constructora.
 const productManager = new ProductManager
 
 // Rutas de productos:
